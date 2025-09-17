@@ -22,7 +22,7 @@ export default function RootLayout({
 
         <meta property="og:title" content="Mon portfolio 🚀" />
         <meta property="og:description" content="Découvrez mon portfolio incroyable construite avec React." />
-        <meta property="og:image" content="https://portfolio.yvesbeugre/preview.png" />
+        <meta property="og:image" content="https://portfolio.yvesbeugre.dev/preview.png" />
         <meta property="og:url" content="https://portfolio.yvesbeugre.dev" />
         <meta property="og:type" content="website" />
 
