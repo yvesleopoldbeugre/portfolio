@@ -234,7 +234,7 @@ export default function BackendPortfolio() {
           <div className="absolute bottom-20 right-20 w-2 h-2 bg-green-500 rounded-full animate-pulse delay-500"></div>
         </div>
 
-        <div className="relative z-10 text-center space-y-8 px-4">
+        <div className="relative z-10 text-center space-y-8 px-4 sm:px-6 lg:px-12">
           <div className="space-y-6">
             <h1
               className={`text-6xl md:text-8xl font-bold text-white transition-all duration-1000 ${
@@ -243,40 +243,39 @@ export default function BackendPortfolio() {
             >
               Beugre Yves Leopold
             </h1>
-            <div className="h-1 w-32 bg-gradient-to-r from-blue-400 to-green-400 mx-auto animate-pulse"></div>
-            <h2 className="text-2xl md:text-4xl text-gray-300 font-light">
+            <div className="h-1 w-20 sm:w-32 bg-gradient-to-r from-blue-400 to-green-400 mx-auto animate-pulse"></div>
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-300 font-light">
               Développeur Backend – Java Spring Boot | PHP Laravel
             </h2>
           </div>
 
-          <div className="max-w-4xl mx-auto">
-            <p className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400 mb-6">
+          <div className="max-w-4xl mx-auto px-2 sm:px-4">
+            <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400 mb-6">
               « Je bâtis des solutions ambitieuses avec exigence et créativité »
             </p>
-            <p className="text-xl text-gray-400 leading-relaxed">
-              Développeur backend passionné basé à Abidjan. Mon objectif : allier performance, clarté et élégance dans
-              chaque architecture.
+            <p className="text-base sm:text-lg md:text-xl text-gray-400 leading-relaxed">
+              Développeur backend passionné basé à Abidjan. Mon objectif : allier performance, clarté et élégance dans chaque architecture.
             </p>
           </div>
 
-          <div className="flex flex-wrap justify-center gap-4">
-            <Badge className="px-6 py-3 bg-blue-500/20 border border-blue-400 text-blue-300 hover:bg-blue-500/30 transition-all">
-              <Shield className="w-4 h-4 mr-2" />
+          <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4 w-full">
+            <Badge className="w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-3 bg-blue-500/20 border border-blue-400 text-blue-300 hover:bg-blue-500/30 transition-all text-sm sm:text-base text-center">
+              <Shield className="w-4 h-4 mr-2 inline-block" />
               Sécurité avancée
             </Badge>
-            <Badge className="px-6 py-3 bg-green-500/20 border border-green-400 text-green-300 hover:bg-green-500/30 transition-all">
-              <Zap className="w-4 h-4 mr-2" />
+            <Badge className="w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-3 bg-green-500/20 border border-green-400 text-green-300 hover:bg-green-500/30 transition-all text-sm sm:text-base text-center">
+              <Zap className="w-4 h-4 mr-2 inline-block" />
               Performance optimisée
             </Badge>
-            <Badge className="px-6 py-3 bg-purple-500/20 border border-purple-400 text-purple-300 hover:bg-purple-500/30 transition-all">
-              <Layers className="w-4 h-4 mr-2" />
+            <Badge className="w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-3 bg-purple-500/20 border border-purple-400 text-purple-300 hover:bg-purple-500/30 transition-all text-sm sm:text-base text-center">
+              <Layers className="w-4 h-4 mr-2 inline-block" />
               Architecture évolutive
             </Badge>
           </div>
 
-          <div className="flex justify-center gap-6">
+          <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
             <Button
-              className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-blue-500/25 transition-all"
+              className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold shadow-lg hover:shadow-blue-500/25 transition-all"
               onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
             >
               <Mail className="w-5 h-5 mr-2" />
@@ -284,7 +283,7 @@ export default function BackendPortfolio() {
             </Button>
             <Button
               variant="outline"
-              className="border-2 border-green-400 text-green-400 hover:bg-green-400 hover:text-gray-900 px-8 py-4 text-lg font-semibold bg-transparent transition-all"
+              className="border-2 border-green-400 text-green-400 hover:bg-green-400 hover:text-gray-900 px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold bg-transparent transition-all"
               onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
             >
               <Code2 className="w-5 h-5 mr-2" />
@@ -292,8 +291,8 @@ export default function BackendPortfolio() {
             </Button>
           </div>
 
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-            <ChevronDown className="w-8 h-8 text-blue-400" />
+          <div className="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <ChevronDown className="w-6 sm:w-8 h-6 sm:h-8 text-blue-400" />
           </div>
         </div>
       </section>
