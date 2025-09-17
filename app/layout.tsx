@@ -21,7 +21,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <meta property="og:title" content="Mon portfolio 🚀" />
-        <meta property="og:description" content="Découvrez mon portfolio incroyable construite avec React." />
+        <meta property="og:description" content="Développeur backend passionné. 'La vie est une aventure audacieuse ou rien du tout.' - Helen Keller" />
         <meta property="og:image" content="https://portfolio.yvesbeugre.dev/preview.png" />
         <meta property="og:url" content="https://portfolio.yvesbeugre.dev" />
         <meta property="og:type" content="website" />
