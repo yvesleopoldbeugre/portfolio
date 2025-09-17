@@ -29,7 +29,7 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Mon portfolio 🚀" />
         <meta name="twitter:description" content="Développeur backend passionné. 'La vie est une aventure audacieuse ou rien du tout.' - Helen Keller" />
-        <meta name="twitter:image" content="https://portfolio.yvesbeugre/preview.png" />
+        <meta name="twitter:image" content="https://portfolio.yvesbeugre.dev/preview.png" />
       </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         {children}
